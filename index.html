@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1 class="logo">WASSIM // PORTFOLIO</h1>
+        <h1 class="logo">WASSIM / PORTFOLIO</h1>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#cv">CV</a></li>
@@ -24,22 +24,24 @@
         <div class="glow-bg"></div>
         <img src="skype pp.jpg" class="profile-pic" alt="My Picture" />
         <h2 class="neon-text">HELLO, I'M WASSIM</h2>
-        <p class="sub">Computer and Communications Engineer</p>
+        <p class="sub">CCE Student</p>
     </section>
 
     <section id="cv" class="section">
         <h2 class="section-title">CV</h2>
+        <iframe src="cv final.docx" class="cv-viewer"></iframe>
+        <br>
         <a class="btn" href="cv final.docx" download>Download CV</a>
     </section>
 
     <section id="cover" class="section">
         <h2 class="section-title">Cover Letter</h2>
-        <a class="btn" href="Wassim_Tawk_Resume_WebDev.docx" download>Download CV</a>
+        <a class="btn" href="Wassim_Tawk_Resume_WebDev.docx"</a>
     </section>
 
     <section id="video" class="section">
         <h2 class="section-title">Video Resume</h2>
-        <a class="btn"</a>
+        <a class="btn" href="#">Download</a>
     </section>
 
     <section id="homeworks" class="section">
@@ -57,8 +59,17 @@
         <div class="card-grid">
             <div class="card">
                 <img src="1111.png" class="project-img" alt="Project 1" />
-                <h3>Machine learning</h3>
+                <h3>Project 1</h3>
             </div>
+            <div class="card">
+                <img src="ADAS-sensors-lidar-radar.webp" class="project-img" alt="Project 2" />
+                <h3>Project 2 – ADAS Sensors</h3>
+            </div>
+            <div class="card">
+                <img src="db.png" class="project-img" alt="Project 3" />
+                <h3>Project 3 – Database System</h3>
+            </div>
+        </div>
             <div class="card">
                 <img src="ADAS-sensors-lidar-radar.webp" class="project-img" alt="Project 2" />
                 <h3>ADAS Sensors Project</h3>
@@ -194,6 +205,21 @@ body {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
+    border: 2px solid #0ff;
+    box-shadow: 0 0 15px #0ff;
+}
+.cv-viewer {
+    width: 80%;
+    height: 500px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0ff;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
     border: 2px solid #0ff;
     box-shadow: 0 0 15px #0ff;
 }
